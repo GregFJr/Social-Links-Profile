@@ -1,0 +1,29 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:hsl(0, 0%, 8%) ;
+    height: 100vh;
+}
+
+.profile-card {
+    display: flex;
+    flex-direction: column;
+    background-color:  hsl(0, 0%, 12%);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.profile-card h3 {
+    color: hsl(75, 94%, 57%);
+}
+
+.pro-links {
+    background-color: hsl(0, 0%, 20%);
+    border-radius: 10px;
+    list-style: none;
+    text-align: center;
+    padding: 10px;
+    margin: 5px 0 5px 0;
+}
+
