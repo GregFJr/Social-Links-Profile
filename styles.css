@@ -14,15 +14,18 @@ body {
     background-color:  hsl(0, 0%, 12%);
     border-radius: 10px;
     text-align: center;
-    padding: 40px;
+    padding: 60px;
 }
 
-.profile-card h3 {
-   color: hsl(0, 0%, 100%)
+.profile-card h1 {
+   color: hsl(0, 0%, 100%);
+   margin-bottom: 0;
+   font-weight: 400;
 }
 
 .profile-card p:nth-of-type(odd) {
     color: hsl(75, 94%, 57%);
+    margin-top: 5px;
 }
 
 .profile-card p:nth-of-type(even) {
