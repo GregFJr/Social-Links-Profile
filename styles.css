@@ -5,6 +5,8 @@ body {
     background-color:hsl(0, 0%, 8%) ;
     font-family: "Inter", sans-serif;
     height: 100vh;
+    width: 100vw;
+    overflow: hidden;
 }
 
 .profile-card {
@@ -14,7 +16,7 @@ body {
     background-color:  hsl(0, 0%, 12%);
     border-radius: 10px;
     text-align: center;
-    padding: 60px;
+    padding: 20px 55px;
 }
 
 .profile-card h1 {
@@ -38,8 +40,8 @@ body {
 
 .profile-card img {
     border-radius: 50%;
-    width: 100px;
-    height: 100px;
+    width: 90px;
+    height: 90px;
 }
 
 .pro-links {
@@ -48,9 +50,10 @@ body {
     border-radius: 10px;
     list-style: none;
     text-align: center;
-    padding: 15px;
+    padding: 13px;
     margin: 8px 0;
     width: 100%;
+    font-size: 14px;
 }
 
 .pro-links:hover {
